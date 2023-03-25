@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+.head{
+    background-color: rgb(69, 78, 91);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.name{
+    display: inline;
+    margin-right: 10px;
+    
+}
+.head{
+    display: flex;
+}
+.icon{
+    margin-right: 100px;
+}
+.search{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+input{
+    width: 70vw;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.data{
+    height: 65vh;
+    padding-left: 19vw;
+    overflow-y: scroll;
+}
+.mainpage{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.addEntity{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
